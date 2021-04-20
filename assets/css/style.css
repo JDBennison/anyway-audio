@@ -1,0 +1,51 @@
+body {
+    font-family: 'Amethysta', serif;
+}
+
+h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+h2:after {
+    margin: 0 0 0 20px;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.jumbotron {
+    height: 89vh;
+    width: 100%;
+    background: url(../images/jumbotron.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    margin-top: 70px;
+    padding: 0;
+}
+
+.partners {
+    background: #d9d9d9;
+}
+
+.partner-logo-lg {
+    height: 120px;
+    width: auto;
+}
