@@ -41,6 +41,61 @@ h2:after {
     padding: 0;
 }
 
+.services {
+    width: 100%;
+    background: url(../images/contact.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+.services-icon {
+    font-size: 3.5rem;
+}
+
+.services-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card {
+    background-color: #fdfdfd;
+    width: auto;
+    margin: 5px 0;
+    padding: 15px;
+    opacity: 0.8;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+@media screen and (max-width: 960px){
+    .card {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .card {
+        height: auto;
+    }
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.07em;
+}
+
 .partners {
     background: #d9d9d9;
 }
@@ -49,3 +104,10 @@ h2:after {
     height: 120px;
     width: auto;
 }
+
+.anchor { 
+        display: block;
+        position: relative;
+        top: -84px;
+        visibility: hidden;
+    }
